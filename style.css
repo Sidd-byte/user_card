@@ -1,14 +1,68 @@
 .container{
-    width: 800px;
-    height: 300px;
+    width: 100%;
+    height: 1000px;
+    background-color: whitesmoke;
     display: flex;
-    background-color: cornflowerblue;
+    justify-content: center;
+}
+.User_card{
+    width: 600px;
+    height: 300px;
+    background-color: ivory;
+    align-self: center;
     justify-self: center;
+    border-radius: 10px;
+    border-color: rgb(85, 85, 180);
+}
+.nav_bar{
+    width: 600px;
+    height: 80px;
+    background-color: rgb(85, 85, 180);
+    display: flex;
 }
 h1{
-    margin: 0px;
+    font: bold;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-left: 20px;
 }
-h2 span{
-    width: 5px;
-    height: 5px;
+p{
+    margin-left: 20px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 3px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+h3{
+    font-size: 15px;
+}
+.change{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.gear{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.user_circle{
+    height: 80px;
+    margin-left: 60px;
+    border-radius: 50%;
+    background-color: ivory;
+    padding: 5px;
+    margin-top: 30px;
+}
+.marker{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
 }
